@@ -58,6 +58,8 @@ body {
     gap: 15px;
     flex: 1;
     max-width: 335px;
+    max-height: 450;
+    text-align: left;
 }
 
 .left-header button {
@@ -73,11 +75,12 @@ body {
 .sub-header .right-header {
     flex: 1;
     max-width: 335px;
+    max-height: 450px;
 }
 
 .right-header img {
     width: 335px;
-    height: 335px;
+    height: 410px;
     object-fit: cover;
 }
 
@@ -146,6 +149,7 @@ body {
     margin: 100px;
     display: flex;
     justify-content: space-around;
+    gap:20px;
     align-items: center;
     padding: 50px;
     flex-wrap: wrap;
