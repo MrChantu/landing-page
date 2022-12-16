@@ -89,6 +89,7 @@ body {
 
 .middle-content h1 {
     padding-bottom: 50px;
+    font-size: 36px;
 }
 
 .box-container {
@@ -97,10 +98,6 @@ body {
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
-}
-
-.box-container .group {
-    
 }
 
 .box-container .box {
@@ -137,7 +134,7 @@ body {
 
 .quote-box .quote-author {
     align-self: flex-end;
-    font-size: 48px;
+    font-size: 18px;
     font-weight: bold;
     color: #222936;
 }
@@ -145,7 +142,7 @@ body {
 .info-box {
     background-color: #3882F6;
     border-radius: 8px;
-    margin: 150px;
+    margin: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
