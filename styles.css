@@ -93,27 +93,32 @@ body {
 
 .box-container {
     display: flex;
-    gap: 20px;
+    width: 100%;
+    justify-content: space-around;
     text-align: center;
+    flex-wrap: wrap;
+}
+
+.box-container .group {
     
 }
 
 .box-container .box {
-    border: 3px solid #3882F6;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 8px;
     margin-bottom: 5px;
 }
 
 .box-container .box img {
     object-fit: cover;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
 }
 
 .box-container .words {
-    width: 150px;
+    width: 250px;
 }
 
 .quote-box {
