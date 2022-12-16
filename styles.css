@@ -49,6 +49,7 @@ body {
     justify-content: center;
     padding: 100px;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 .sub-header .left-header {
