@@ -62,16 +62,6 @@ body {
     text-align: left;
 }
 
-.left-header button {
-    background-color: #3882F6;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 5px 15px;
-    align-self: flex-start;
-    font-weight: bold;
-}
-
 .sub-header .right-header {
     flex: 1;
     max-width: 335px;
@@ -171,15 +161,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.info-box button {
-    background-color: #3882F6;
-    color: white;
-    border: 3px solid white;
-    border-radius: 8px;
-    padding: 5px 15px;
-    font-weight: bold;
 }
 
 .footer {

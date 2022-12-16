@@ -1,0 +1,34 @@
+/*This stylesheet is for customizing buttons, anchors, etc*/
+
+.top-button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+.top-button:hover {
+    background-color: #fcf3fa;
+    color: #5381f1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.bottom-button {
+    background-color: #3882F6;
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+.bottom-button:hover {
+    background-color: white;
+    color: #3882F6;
+    transition: 0.3s;
+    cursor: pointer;
+}
