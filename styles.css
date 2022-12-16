@@ -147,6 +147,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 50px;
+    flex-wrap: wrap;
 }
 
 .info-box .info-header {
@@ -160,13 +161,19 @@ body {
     color: #E5E7EB;
 }
 
+.info-box .left-box {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .info-box button {
     background-color: #3882F6;
     color: white;
     border: 3px solid white;
     border-radius: 8px;
     padding: 5px 15px;
-    align-self: center;
     font-weight: bold;
 }
 
