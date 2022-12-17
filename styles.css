@@ -165,7 +165,6 @@ body {
 }
 
 .info-box .left-box {
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
