@@ -74,6 +74,7 @@ body {
     width: 335px;
     height: 410px;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .middle-content {
